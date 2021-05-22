@@ -1,0 +1,96 @@
+{% extends './templates/layout.html' %} {% block main %}
+<div class="map">
+  <div class="legend">
+    <h2>All Industrial Polluters<br />In the Portland Area</h2>
+    <!--
+    <h2>2015 DEQ Air Contaminant Discharge Permits in Multnomah and Washington Counties</h2>
+    -->
+    <img src="pcamapkey10.jpg" width="320" height="696" alt="legend" />
+    <p class="mapinfolink mapinfolink1">
+      Learn about <a href="files/PCA-Guide-to-Industrial-Air-Pollution.pdf">using this map</a>.
+    </p>
+    <p class="mapinfolink mapinfolink2">
+      See the <a href="https://mesonet.smpc.tv/45.536974885126554,-122.67257775671168">current wind direction</a>.
+    </p>
+  </div>
+  <h2 class="subhead">Working to Improve Our Air Quality</h2>
+  <object
+    data="https://www.google.com/maps/d/embed?mid=1B0e1nQZznxSxi74R9Vsc-_B-G2SHiSc5&amp;ll=45.5563930204638075%2C-122.65440075039064&amp;z=12&amp;hl=en"
+    width="900"
+    height="800"
+  ></object>
+</div>
+<div class="about">
+  <h2>Our Directors and Staff</h2>
+  <dl class="staff">
+    <dt>Greg Bourget, Executive Director, Lead Researcher</dt>
+    <dd>greg<span>@</span>portlandcleanair.org</dd>
+    <dt>Beven Byrnes, Spokesperson</dt>
+    <dd>bbyrnes@bridgesms.org</dd>
+    <dt>Seth Woolley, Board Chair, Databases, Media Contact</dt>
+    <dd>503-953-3943</dd>
+    <dd>seth<span>@</span>portlandcleanair.org</dd>
+    <dt>Don Berg, Board Member, Bookkeeper and Treasurer</dt>
+    <dd>PCA c/o Don Berg</dd>
+    <dd>3439 SE Hawthorne Blvd #241</dd>
+    <dd>Portland, OR 97214</dd>
+    <dt>Alexandra Ruhf, Board Member</dt>
+    <dd>sandiyruhf<span>@</span>yahoo.com</dd>
+    <dt>Tim DuBois, Board Member</dt>
+  </dl>
+  <div class="imagemap" style="transform: scale(0.45, 0.45); width: 0; height: 0">
+    <object
+      width="2023"
+      height="1525"
+      data="/files/PCA-Map.html"
+      style="border: solid 1px black; background-color: white"
+      type="text/html"
+    >
+      Click here for the <a href="/files/PCA-Map.html">PCA Image Map</a>
+    </object>
+  </div>
+</div>
+<div class="moremaps">
+  <h2>Pollution Reports</h2>
+  <p>All our pollution reports can be found by clicking below.</p>
+  <h3><a href="/files/pcapubs.html">Portland Clean Air Reports</a></h3>
+  <h3><a href="/files/pcadata.html">Portland Clean Air Data</a></h3>
+  <p class="mission">
+    Portland Clean Air is a registered Oregon Political Committee working to address industrial pollution in Multnomah
+    and Washington Counties. Cascadia Action is a registered 501(c)(3) for education and outreach regarding air quality
+    issues in the Cascadian bioregion.
+  </p>
+</div>
+
+<div class="moreinfo">
+  <div class="socialtw">
+    <a
+      class="twitter-timeline targetblank"
+      height="630"
+      href="https://twitter.com/PDXCleanAir"
+      data-widget-id="655242170765434880"
+    >
+      Tweets by @PDXCleanAir
+    </a>
+  </div>
+  <div class="socialfb">
+    <div id="fb-root"></div>
+    <div
+      class="fb-page"
+      data-href="https://www.facebook.com/PDXCleanAir"
+      data-small-header="true"
+      data-adapt-container-width="true"
+      data-hide-cover="true"
+      data-show-facepile="true"
+      data-show-posts="true"
+    >
+      <div class="fb-xfbml-parse-ignore">
+        <blockquote cite="https://www.facebook.com/PDXCleanAir">
+          <a href="https://www.facebook.com/PDXCleanAir"> Portland Clean Air </a>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

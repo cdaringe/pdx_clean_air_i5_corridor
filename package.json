@@ -1,0 +1,22 @@
+{
+  "name": "pdx_clean_air_i5_corridor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write './**/*.{js,ts}' './build/**'",
+    "start:proxy": "node proxy.js",
+    "start:static": "httpster -d build",
+    "start": "run-p start:*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-proxy": "^1.18.1",
+    "httpster": "^1.2.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.3.0",
+    "swig-templates": "^2.0.3"
+  }
+}
