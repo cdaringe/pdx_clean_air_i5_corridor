@@ -1,3 +1,83 @@
-{% extends './templates/layout.html' %} {% block main %}
-<h1>weee</h1>
+{% extends './templates/layout.html' %}
+{% block head %}
+<style>
+  h1.i5, h2.i5, h3.i5 {
+    margin: initial;
+  }
+  h2.i5 {
+    margin-top: 1em;
+  }
+  h3.i5 {
+    margin-top: 0.5em;
+  }
+  table.i5 {
+    min-width: max(60vw, 600px);
+  }
+  table.i5 thead td:first-child {
+    width: max(300px, 30vw);
+  }
+  table.i5 thead td {
+    font-weight: 800;
+    font-size: large;
+  }
+  a.missing {
+    color: red;
+  }
+</style>
+{% endblock %}
+{% block main %}
+{% for report in reports %}
+
+<h2 class='i5'>{{ report.title }}</h2>
+<table class='i5'>
+  <thead>
+    <tr>
+      <td>
+        {{ report.header }}
+      </td>
+      <td>
+        Finished Graphs
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    {% for link in report.links %}
+    <tr>
+      <td>
+        <a class="{% if !link.data.url %}missing{% endif %}" href="{{ link.data.url }}">{{ link.data.text}}</a>
+      </td>
+      <td>
+        <a class="{% if !link.graph.url %}missing{% endif %}" href="{{ link.graph.url }}">{{ link.graph.text}}</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endfor %}
+
+<h2 class='i5'>PURPLEAIR Graphs</h2>
+<table class='i5'>
+  <tbody>
+    {% for link in purpleair.graphLinks %}
+    <tr>
+      <td>
+        <a class="{% if !link.url %}missing{% endif %}" href="{{ link.url }}">{{ link.text }}</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2 class='i5'>POCKETLAB Graphs</h2>
+<table class='i5'>
+  <tbody>
+    {% for link in pocketlab.graphLinks %}
+    <tr>
+      <td>
+        <a class="{% if !link.url %}missing{% endif %}" href="{{ link.url }}">{{ link.text}}</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 {% endblock %}

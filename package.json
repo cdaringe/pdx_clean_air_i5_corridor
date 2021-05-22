@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node build.js",
     "format": "prettier --write './**/*.{js,ts}' './build/**'",
+    "start:build": "watch -n 5 pnpm build",
     "start:proxy": "node proxy.js",
     "start:static": "httpster -d build",
     "start": "run-p start:*",

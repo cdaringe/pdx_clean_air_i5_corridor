@@ -1,0 +1,136 @@
+{
+  "reports": [
+    {
+      "title": "AETHALOMETER",
+      "header": "Raw DEQ Data",
+      "links": [
+        {
+          "data": {
+            "text": "Aeth_Portland Metro 2017-2020",
+            "url": ""
+          },
+          "graph": {
+            "text": "Aeth_Portland Metro 2017-2020 graph",
+            "url": ""
+          }
+        }
+      ]
+    },
+    {
+      "title": "BAM 2010",
+      "header": "Raw Bullseye Settlement Data Finished Graphs",
+      "links": [
+        {
+          "data": {
+            "text": "BAM_Bullseye PM2.5",
+            "url": ""
+          },
+          "graph": {
+            "text": "Aeth_Portland Metro 2017-2020 graph",
+            "url": "BAM_Bullseye PM2.5 2021_0320"
+          }
+        }
+      ]
+    },
+    {
+      "title": "PARTISOL PLUS 2025",
+      "header": "Raw DEQ Data",
+      "links": [
+        {
+          "data": { "text": "FRM_Mult and Wash Co PM2.5", "url": "" },
+          "graph": {
+            "text": "FRM_Mult and Wash Co PM2.5_KDM 042621",
+            "url": ""
+          }
+        }
+      ]
+    },
+    {
+      "title": "NEPHELOMETER",
+      "header": "Raw DEQ Data",
+      "links": [
+        {
+          "data": {
+            "text": "Neph_Beaverton",
+            "url": ""
+          },
+          "graph": { "text": "Neph_Beaverton_KDM 041821", "url": "" }
+        },
+        {
+          "data": {
+            "text": "Neph_Gresham",
+            "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Gresham.xlsx"
+          },
+          "graph": { "text": "Neph_Gresham_KDM 041821", "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Gresham_KDM%20041821.xlsx" }
+        },
+        {
+          "data": {
+            "text": "Neph_Hillsboro",
+            "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Hillsboro.xlsx"
+          },
+          "graph": { "text": "Neph_Hillsboro_KDM 041621", "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Hillsboro_KDM%20041621.xlsx" }
+        },
+        {
+          "data": {
+            "text": "Neph_Portland_Central_Fire_Station",
+            "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Portland%20Central%20Fire%20Station.xlsx"
+          },
+          "graph": {
+            "text": "Neph_Portland Central Fire Station_KDM 042021",
+            "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Portland%20Central%20Fire%20Station_KDM%20042021.xlsx"
+          }
+        },
+        {
+          "data": {
+            "text": "Neph_Portland_Cully",
+            "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Portland%20Cully.xlsx"
+          },
+          "graph": { "text": "Neph_Portland Cully_KDM 042021", "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Portland%20Cully_KDM%20042021.xlsx" }
+        },
+        {
+          "data": {
+            "text": "Neph_Portland_N_Roselawn",
+            "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Portland%20N.%20Roselawn.xlsx"
+          },
+          "graph": {
+            "text": "Neph_Portland N. Roselawn_KDM 042021",
+            "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Portland%20N.%20Roselawn_KDM%20042021.xlsx"
+          }
+        },
+        {
+          "data": {
+            "text": "Neph_Portland_SE_Lafayette",
+            "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Portland%20SE%20Lafayette.xlsx"
+          },
+          "graph": {
+            "text": "Neph_Portland SE Lafayette_KDM 041721",
+            "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Portland%20SE%20Lafayette_KDM%20041721.xlsx"
+          }
+        },
+        {
+          "data": {
+            "text": "Neph_Tualatin_Near_Road",
+            "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Tualatin%20Near%20Road.xlsx"
+          },
+          "graph": { "text": "Neph_Tualatin Near Road_KDM 042021", "url": "http://portlandcleanair.org/files/reports/DEQ2.5/Neph_Tualatin%20Near%20Road_KDM%20042021.xlsx" }
+        }
+      ]
+    }
+  ],
+  "purpleair": {
+    "graphLinks": [
+      { "text": "Placeholder", "url": "" },
+      { "text": "Placeholder", "url": "" },
+      { "text": "Placeholder", "url": "" },
+      { "text": "Placeholder", "url": "" }
+    ]
+  },
+  "pocketlab": {
+    "graphLinks": [
+      { "text": "Placeholder", "url": "" },
+      { "text": "Placeholder", "url": "" },
+      { "text": "Placeholder", "url": "" },
+      { "text": "Placeholder", "url": "" }
+    ]
+  }
+}
